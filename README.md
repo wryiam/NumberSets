@@ -1,2 +1,9 @@
 # NumberSets
-NumberSets is a logic-based puzzle game similar to Sudoku. Played on a 9x9 board with white and black cells, the goal is to fill white cells with numbers forming complete sets in their compartments while following placement rules. Players must strategically place numbers while considering the board layout and given clues.
+## Overview
+NumberSets is a puzzle game where players fill a 9x9 board, ensuring that each compartment (separated by black cells) contains a complete numerical set. The challenge lies in respecting placement rules while avoiding number repetition in rows and columns.
+
+ ### Rules
+
+1) Each white compartment must contain a consecutive set of numbers in any order.  
+2) No number can repeat in any row or column.  
+3) Black squares may contain numbers that serve as clues, eliminating those numbers from their respective row and column.  
